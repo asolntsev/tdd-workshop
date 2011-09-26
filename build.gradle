@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+sourceSets {
+  main {
+    java {
+      srcDir 'src'
+    }
+  }
+  test {
+    java {
+      srcDir 'src'
+    }
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'lib', include: '*.jar')
+}
+
+defaultTasks 'test'
