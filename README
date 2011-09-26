@@ -1,0 +1,14 @@
+This is the main repository for the TDD extreme startup workshop.
+
+To build code and run unit-tests, execute:  "./gradle test"
+
+To participate in workshop, do the following:
+1. Create git account
+2. Fork the repository git@github.com:asolntsev/tdd-workshop.git
+3. Create class with your name, see ChuckNorris.java and BruceLee.java for example.
+   - Your class should extend ee.devclub.extremestartup.Workshop
+   - Your class should implement method answer()
+4. Commit & push changes to your forked repository
+5. Send a pull request to git@github.com:asolntsev/tdd-workshop.git
+
+Workshop master will merge your changes to the main repository and run his tests against your code.
